@@ -29,7 +29,7 @@ function populateSelect() {
 function show(ele) {
     // Get the selected value from <select> element and show it.
     var msg = document.getElementById('msg');
-    msg.innerHTML = '<b>Answer:</b> ' + ele.value + ' </br>' +
+    msg.innerHTML = '<b>Answer:</b> ' + ele.value + '</br>' +
         '<b>Link: </b>' + ele.Link + '</b>';
 }
 
