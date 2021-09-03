@@ -1,5 +1,5 @@
 var jsonString =
-   '[{"id":1,"Question":"Where would I find information on late trips?","Answer":"By using the Late Trip Application you can see incoming mail to your facility.","Link":"https://www.usps.com"},{"id":2,"Question":"Chocolate","examples":"Milka, Ritter Sport, Lindt","img":"Ritter1.png"}]';
+   '[{"id":1,"Question":"Where would I find information on late trips?","Answer":"By using the Late Trip Application you can see incoming mail to your facility.","Link":"https://www.usps.com"},{"id":2,"Question":"Chocolate","Answer":"Milka, Ritter Sport, Lindt","Link":"Ritter1.png"}]';
 var jsObject = JSON.parse(jsonString);
 
 // fill processing select list
